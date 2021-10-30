@@ -1,0 +1,62 @@
+body {
+    font-family: 'Chewy', cursive !important
+}
+
+html, body {
+    height:100%;
+}
+
+#searchT{
+    padding: 5px;
+    padding-right: 40px;
+    outline: none;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    background-color: #FBFBFB;
+    background-position: 1050px 5px;
+    background-image: url('https://img.icons8.com/search');
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+body { 
+    background-image: url(../Images/wolf.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/wolf.jpg);
+    background-repeat: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-center {
+    color: white;
+    font-size: 30px;
+}
+
+#searchT {
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#movies img, #movie img {
+    width: 100%;
+    font-family: 'Nova Square', cursive;
+
+}
+@media (min-width:800px){
+    #movies .col-md-3 .well {
+        height: 490px;
+        font-family: 'Nova Square', cursive;
+    }
+
+    #movies .col-md-3 img{
+        height: 340px;
+        font-family: 'Nova Square', cursive;
+    }
+}
+
+.btn-primary {
+    background-color: tomato;
+    border: white;
+}
